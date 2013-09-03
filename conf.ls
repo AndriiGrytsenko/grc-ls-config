@@ -1,9 +1,5 @@
-# directory
-regexp=d
-colours=yellow
-======
-# read
-regexp=^.(.{3})(.{3})(.{3}).\s*\d*\s*(\w+)\s+(\w+)\s+.*\d{2,}\s*([\s\w\.\?\-\_\d\+]+)$
+# file
+regexp=^[d-]([r-][w-][x-])([r-][w-][x-])([r-][w-][x-])\s+\d+\s+(\w+)\s+(\w+)\s+.+\w+\s+(.+)$
 colours=unchanged,bold blue,bold green, bold yellow, green, blue, white
 ======
 # highlight root user/group
